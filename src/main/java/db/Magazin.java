@@ -13,7 +13,6 @@ public class Magazin {
     private String nume;
 
     @ElementCollection
-    @CollectionTable(name = "MY_COLLECTION_TABLE")
     private Collection<String> numere;
 
     public int getId() {
