@@ -1,8 +1,9 @@
 package main;
 
-public class Exemplu7 {
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 
-    public static void main(String[] args) {
-        System.out.println("hello :)");
+public class Exemplu7 {
+    public static void main(MysqlxDatatypes.Scalar.String[] args) {
+        System.out.println("Hello from Bogdan");
     }
 }
